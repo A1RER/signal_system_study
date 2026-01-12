@@ -1,0 +1,47 @@
+# ===================== Python 过滤规则 =====================
+# 虚拟环境文件夹（你的.venv，重中之重！绝对不要提交）
+.venv/
+venv/
+env/
+# __pycache__缓存文件（Python运行自动生成，无用）
+__pycache__/
+*.py[cod]
+*$py.class
+# Python编译文件
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===================== MATLAB 过滤规则 =====================
+# MATLAB运行生成的二进制垃圾文件（绝对不要提交）
+*.mat    # MATLAB数据文件
+*.fig    # MATLAB波形图文件
+*.asv    # MATLAB自动备份文件
+*.m~     # MATLAB临时文件
+*.bak    # MATLAB备份文件
+# MATLAB日志/缓存
+log/
+cache/
+
+# ===================== Windows 系统过滤规则 =====================
+# 系统隐藏文件，无用
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
